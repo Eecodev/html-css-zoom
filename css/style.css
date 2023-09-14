@@ -10,6 +10,7 @@
 	--color-end-meeting: #e93f33;
 	--color-icon-g: #68c709;
 	--color-icon-w: #fefdfd;
+    --color-footer-2: #222222;
 }
 body{
     font-family: 'Fredoka', sans-serif;
@@ -17,6 +18,7 @@ body{
 }
 header{
     max-width: 100%;
+    height: 70px;
 }
 .debug{
     border: 1px solid green;
@@ -35,11 +37,16 @@ header{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    align-items: flex-start;
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
 }
 /* main */
 main{
     overflow-y: auto;
-    width: calc(100vh - 31);
+    height: calc(100vh - 190px);
 }
 .box{
     color: var(--color-icon-w);
@@ -52,12 +59,30 @@ img{
     width: 100%;
     display: block;
 }
-.fa-microphone-slash{
-    color: var(--color-icon-w)
+/* icons */
+
+.fa-solid{
+    color: var(--color-icon-w);
 }
+.fa-maximize,.fa-regular{
+    color: var(--color-body);
+}
+/*  */
 #bg-blurred{
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: var(--color-footer);
+}
+/* footer */
+footer{
+    padding-top: 20px;
+    height: 120px;
+    background-color: var(--color-footer-2);
+}
+.bg-footer-right{
+    background-color: var(--color-footer);
+}
+.end-red{
+    color: var(--color-end-meeting);
 }

@@ -23,6 +23,12 @@ header{
 }
 .container{
     width: 100%;
+    padding: 5px;
+}
+.container-main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 /* utility */
 .d-flex{

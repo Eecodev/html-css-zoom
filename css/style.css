@@ -44,8 +44,9 @@ main{
 .box{
     color: var(--color-icon-w);
     width: calc(100% / 7);
-    padding: 10px 5px;
+    padding: 10px 10px 0px 0px;
     display: block;
+    position: relative;
 }
 img{
     width: 100%;
@@ -53,4 +54,10 @@ img{
 }
 .fa-microphone-slash{
     color: var(--color-icon-w)
+}
+#bg-blurred{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-footer);
 }

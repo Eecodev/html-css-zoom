@@ -21,11 +21,11 @@ header{
 .debug{
     border: 1px solid green;
 }
-.container{
+.wrapper{
     width: 100%;
     padding: 5px;
 }
-.container-main{
+.wrapper-main{
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 10px;
@@ -36,7 +36,11 @@ header{
     justify-content: flex-end;
     flex-wrap: wrap;
 }
-/*  */
+/* main */
+main{
+    overflow-y: auto;
+    width: calc(100vh - 31);
+}
 .box{
     color: var(--color-icon-w);
     width: calc(100% / 7);

@@ -51,3 +51,6 @@ img{
     width: 100%;
     display: block;
 }
+.fa-solid{
+    color: var(--color-icon-w)
+}

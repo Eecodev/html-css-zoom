@@ -34,10 +34,16 @@ header{
 .d-flex{
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 /*  */
 .box{
     color: var(--color-icon-w);
-    width: calc(100% / 3);
+    width: calc(100% / 7);
     padding: 10px 5px;
+}
+img{
+    width: 100%;
+    display: block;
+    object-fit: contain;
 }

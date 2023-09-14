@@ -1,0 +1,31 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+	--color-body: #000000;
+	--color-footer: #4a4a4a;
+	--color-end-meeting: #e93f33;
+	--color-icon-g: #68c709;
+	--color-icon-w: #fefdfd;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+    background-color: var(--color-body);
+}
+header{
+    max-width: 100%;
+}
+.debug{
+    border: 1px solid green;
+}
+.container{
+    width: 100%;
+}
+/* utility */
+.d-flex{
+    display: flex;
+    justify-content: flex-end;
+}

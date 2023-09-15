@@ -46,7 +46,7 @@ header{
 /* main */
 main{
     overflow-y: auto;
-    height: calc(100vh - 190px);
+    height: calc(100vh - 170px);
 }
 .box{
     color: var(--color-icon-w);
@@ -77,7 +77,7 @@ img{
 /* footer */
 footer{
     padding-top: 20px;
-    height: 120px;
+    height: 100px;
     background-color: var(--color-footer-2);
 }
 .bg-footer-right{
